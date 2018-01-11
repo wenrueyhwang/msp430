@@ -6,6 +6,8 @@ int main(void)
 	printf("%s\n", "hello world" );
 	printf("%s\n", "bye world");
 	printf("%s\n", "This is a test for test files");
-	return(0);
+	for(int i=0; i<10; i++)
+		printf("This is %d\n", i);	
+return(0);
 }
 
